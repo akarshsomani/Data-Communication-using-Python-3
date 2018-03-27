@@ -1,4 +1,4 @@
-import matplotlib.pylab as plt
+mimport matplotlib.pylab as plt
 import numpy as num
 
 '''
@@ -14,11 +14,11 @@ Modulated signal = (1+ m*sin(2*π*fm*t))*Ac*sin(2*π*fc*t)
 '''
 
 
-Am=1
+Ac=1
 fc=int(input('enter carrier frequency'))
 fm=int(input('enter message frequency'))# fm<fc
 m=float(input('enter modulation index'))
-Ac=m*Am
+Ac=m*Ac
 
 t1=num.arange(0,1,0.001)
 y1=num.sin(2*num.pi*fm*t1) # message signal
