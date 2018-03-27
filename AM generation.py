@@ -1,3 +1,4 @@
+
 import matplotlib.pylab as plt
 import numpy as num
 
@@ -46,3 +47,9 @@ plt.ylabel('Amplitude')
 plt.title('Modulated signal')
 plt.grid(True)
 plt.show()
+
+"""
+enter carrier frequency25
+enter message frequency2
+enter modulation index1
+"""
