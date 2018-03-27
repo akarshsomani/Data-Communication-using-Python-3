@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 import numpy as num
 A=5;
@@ -50,3 +51,9 @@ plt.ylabel("y");
 plt.title("PSK");
 plt.grid(True)
 plt.show()
+
+"""
+output-
+Enter the frequency of carrier=10
+Enter the frequency of pulse=2
+"""
